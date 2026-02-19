@@ -51,8 +51,8 @@ def main():
     print(f"===== Simple Calculator =====")
 
     # Ask the user for sample input    
-    num1 = request_santized_number("Enter the first number: ")
-    num2 = request_santized_number("Enter the second number: ")
+    num1 = request_santized_number("Enter the first number please: ")
+    num2 = request_santized_number("Enter the second number please: ")
     operation = input("Enter the operation (add, subtract, multiply, divide): ").strip().lower()
 
     # Perform the calculation and display the result
